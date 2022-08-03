@@ -5,8 +5,8 @@ import Topbar from './Topbar'
 function index() {
   return (
     <>
-    <Navbar />
     <Topbar />
+    <Navbar />
   </>
   )
 }

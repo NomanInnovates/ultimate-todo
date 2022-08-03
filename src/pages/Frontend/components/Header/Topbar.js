@@ -6,7 +6,7 @@ function Topbar() {
     useEffect(() => {
        setInterval(()=> {
 
-           setCurrentTime(dayjs().format('dddd'))
+           setCurrentTime(dayjs().format('dddd,MMMM D YYYY hh:mm:ss A '))
        })
     }, [])
 
