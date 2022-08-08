@@ -1,11 +1,12 @@
 
 import './App.scss';
+import AuthContextProvider from './context/AuthContext';
 import Routes from './pages/Routes'
 function App() {
   return (
-    <div className="App">
+    <AuthContextProvider className="App">
       <Routes />
-    </div>
+    </AuthContextProvider>
   );
 }
 
